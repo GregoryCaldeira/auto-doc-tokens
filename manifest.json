@@ -1,0 +1,10 @@
+{
+  "name": "Auto Doc Tokens",
+  "id": "1163379116957703230",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": [
+    "figma"
+  ]
+}
