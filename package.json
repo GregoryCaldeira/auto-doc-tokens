@@ -1,0 +1,28 @@
+{
+  "name": "auto-doc-tokens",
+  "version": "1.0.0",
+  "description": "Figma plugin for generate UI to fast document your tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoryCaldeira/auto-doc-tokens.git"
+  },
+  "keywords": [
+    "figma",
+    "plugin",
+    "tokens",
+    "auto",
+    "documentation",
+    "design",
+    "system"
+  ],
+  "author": "Gregory Caldeira <geral.gcaldeira@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GregoryCaldeira/auto-doc-tokens/issues"
+  },
+  "homepage": "https://github.com/GregoryCaldeira/auto-doc-tokens#readme"
+}
