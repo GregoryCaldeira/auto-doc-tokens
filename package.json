@@ -1,8 +1,10 @@
 {
-	"name": "figma-plugin-react-template",
+	"name": "auto-doc-tokens",
 	"version": "1.0.0",
-	"description": "This plugin template uses Typescript. If you are familiar with Javascript, Typescript will look very familiar. In fact, valid Javascript code is already valid Typescript code.",
-	"license": "ISC",
+	"description": "Auto generate documentation for Figma Tokens",
+	"license": "MIT",
+	"author": "Gregory Caldeira <geral.gcaldeira@gmail.com>",
+	"repository": "https://github.com/GregoryCaldeira/auto-doc-tokens.git",
 	"scripts": {
 		"build": "webpack --mode=production",
 		"build:watch": "webpack --mode=development --watch",
