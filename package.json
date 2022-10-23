@@ -1,17 +1,16 @@
 {
-	"name": "auto-doc-tokens",
+	"name": "figma-plugin-react-template",
 	"version": "1.0.0",
-	"description": "Auto generate documentation for tokens in Figma",
-	"license": "MIT",
+	"description": "This plugin template uses Typescript. If you are familiar with Javascript, Typescript will look very familiar. In fact, valid Javascript code is already valid Typescript code.",
+	"license": "ISC",
 	"scripts": {
 		"build": "webpack --mode=production",
-		"dev": "webpack --mode=development --watch",
+		"build:watch": "webpack --mode=development --watch",
 		"prettier:format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,json}' "
 	},
 	"dependencies": {
 		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"zustand": "^4.1.2"
+		"react-dom": "^17.0.2"
 	},
 	"devDependencies": {
 		"@figma/plugin-typings": "^1.24.0",

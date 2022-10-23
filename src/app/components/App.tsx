@@ -1,10 +1,9 @@
 import * as React from 'react';
-import './styles/ui.css';
+import '../styles/ui.css';
 
 declare function require(path: string): any;
 
 const App = ({}) => {
-    /*
     const textbox = React.useRef<HTMLInputElement>(undefined);
 
     const countRef = React.useCallback((element: HTMLInputElement) => {
@@ -30,10 +29,18 @@ const App = ({}) => {
             }
         };
     }, []);
-*/
+
     return (
         <div>
-            <h1>Hello World!!</h1>
+            <img src={require('../assets/logo.svg')} />
+            <h2>Rectangle Creator 2</h2>
+            <p>
+                Count: <input ref={countRef} />
+            </p>
+            <button id="create" onClick={onCreate}>
+                Create
+            </button>
+            <button onClick={onCancel}>Cancel</button>
         </div>
     );
 };
